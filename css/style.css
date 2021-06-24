@@ -44,10 +44,10 @@ header .menu a {
     text-transform: uppercase;
 }
 
-/* no está tomando esto, ver porque */
-header .menu a .sum{
-    border: 1px solid #A5A5A5;
-    border-radius: 10px;
+header .menu .sum{
+    border: 2px solid #A5A5A5;
+    border-radius: 16px;
+    padding: 5px 12px;
 }
 
 /* hazte socio section */
@@ -344,7 +344,7 @@ input{
 
 .card{
     color:#FFFFFF;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: normal;
     font-size: 17px;
     line-height: 103.69%;
@@ -414,7 +414,7 @@ input{
 
 .hashtag .text-hashtag{
 
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: bold;
     font-size: 60px;
     text-align: center;
