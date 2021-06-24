@@ -75,13 +75,15 @@ header .menu .sum{
     align-items: center;
     letter-spacing: -0.005em;
     text-transform: uppercase;
+    margin: 55px 0 10px 0
 }
 
 .be-part .partner-text p{
     font-family: "Roboto";
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 103.69%;
+    width: 600px;
     /* display: flex; */
     /* align-items: center; */
     letter-spacing: -0.005em;
