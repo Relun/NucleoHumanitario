@@ -1,0 +1,420 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+$primary: #E19A28;
+$secondary: #ED6336;
+$tertiary: #C4C4C4;
+$fourth: #ED744A;
+$fifth: #706A6A;
+
+$white: #FFFFFF;
+
+.flex-between{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.roboto400{
+    font-family:"Roboto";
+    font-weight: 400;
+}
+
+.poppins400{
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.poppins600{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.poppins700{
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.upper{    
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: $white;
+    height: 212px;
+    .container{
+        @extend .flex-between;
+        .main-logo{
+            .logo-img{
+                margin: 40px 0 70px 5px;
+            }
+        }
+        .menu{
+            margin: 88px 0;
+            a{
+                @extend .roboto400;
+                margin: 0 20px;
+                color: #999999;
+                display: inline-block;
+                text-decoration: none;
+                font-size: 20px;
+                line-height: 23px;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+            }
+            .sum{
+                border: 2px solid $tertiary;
+                border-radius: 16px;
+                padding: 5px 12px;
+            }
+        }
+    }
+}
+
+main{
+    .be-part{
+        background: $tertiary;
+        height: 528px;
+        .container{
+            @extend .flex-between;
+        }
+        .partner-text{
+            width: 1000px;
+            height: 500px;
+            padding-top: 50px;
+            h1{
+                @extend .upper;
+                @extend .poppins700;
+                color: $fourth;
+                font-size: 90px;
+                line-height: 103.69%;
+                align-items: center;
+                margin: 55px 0 10px 0
+            }
+            p{
+                @extend .roboto400;
+                @extend .upper;
+                font-size: 23px;
+                line-height: 103.69%;
+                width: 600px;
+                color: #625F5F;
+            }
+            a{
+                @extend .roboto400;
+                font-size: 24px;
+                color: $fourth;
+                text-decoration: none;
+                border: 1px solid $fourth;
+                border-radius: 18px;
+                padding: 5px 30px;
+                
+            }
+        }
+        .be-partner{
+            background: $primary;
+            margin: 40px 80px 40px 10px;
+            border-radius: 20px;
+            width: 550px;
+            .login{
+                @extend .poppins400;
+                text-align: center;
+                color: $white;
+                font-size: 18px;
+                padding-top: 30px;
+                input{
+                    border: 0;
+                }    
+                .field{
+                    width: 310px;
+                    height: 45px;
+                    padding: 10px;
+                    margin-top: 20px;
+                    background: $white;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 10px;
+                    }
+                .button{
+                    @extend .roboto400;
+                    width: 250px;
+                    height: 35px;
+                    background: #999999;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px;
+                    text-align: center;
+                    color:$white;
+                    font-size: 26px;
+                    margin-top: 50px;
+                    }
+            }
+        }
+    }
+    .food-rations{
+        background: white;
+        height: 287px;
+        padding-top: 30px;
+        .container{
+            @extend .flex-between;
+            .logo{
+                .logo2{
+                    margin: 33px 100px 0 0;
+                }
+
+            }
+        }
+    }
+    .our-core{
+        background: $tertiary;
+        height: 525px;
+        .container{
+            @extend .flex-between;
+            .description{
+                h2{
+                    color:$fourth;
+                    font-family: "Roboto";
+                    font-weight: 700;
+                    font-size: 55px;
+                    line-height: 103.69%;
+                }
+                p{
+                    @extend .roboto400;
+                    font-size: 20px;
+                    line-height: 103.69%;
+                    align-items: center;
+                    letter-spacing: -0.005em;
+                    color: #625F5F;
+                }
+            }
+            .photos{
+                .photo{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .payment{
+        background:$white;
+        height: 887px;
+        .container{
+            h3{
+                @extend .upper;
+                @extend .poppins700;
+                height: 57px;
+                // padding: 50px 0;
+                font-size: 55px;
+                line-height: 103.69%;
+                text-align: center;
+                color: $primary;
+            }
+            .container-payment{
+                @extend .flex-between;
+                flex-wrap: wrap;
+                .card1{
+                    margin-top: 25px;
+                    width: 300px;
+                    height: 450px;
+                    border: 4px solid $tertiary;
+                    border-radius: 20px;
+                    .tittle1{
+                        h4{
+                            @extend .upper;
+                            @extend .poppins600;
+                            width: 250px;
+                            height: 58px;
+                            margin-left: 20px;
+                            font-size: 25px;
+                            line-height: 103.69%;
+                            text-align: center;
+                            color: $fifth;
+                        }
+                    }
+                    .check{
+                        margin-left: 30px;
+                        p{
+                            @extend .roboto400;
+                            color: $fourth;
+                            font-size: 16px;
+                        }
+                    }
+                    .money{
+                        @extend .poppins600;
+                        text-align: center;
+                        font-size: 40px;
+                        .amount{
+                            color:$fifth;
+                        }
+                    }
+                    .button2{
+                        text-align: center;
+                        .donate{
+                            @extend .upper;
+                            @extend .roboto400;
+                            font-size: 20px;
+                            text-decoration: none;
+                            line-height: 103.69%;
+                            color: $fourth;
+                            border: 1px solid $fourth;
+                            border-radius: 10px;
+                            padding: 15px 60px;
+                        }
+                    }
+                }
+                .card2{
+                    margin: 0 50px;
+                    width: 300px;
+                    height: 480px;
+                    background: $primary;
+                    border: 4px solid $primary;
+                    border-radius: 20px;
+                    .tittle2{
+                        h4{
+                            @extend .upper;
+                            @extend .poppins600;
+                            width: 250px;
+                            height: 58px;
+                            margin-left: 20px;
+                            font-size: 25px;
+                            line-height: 103.69%;
+                            text-align: center;
+                            color: $white;
+                        }
+                    }
+                    .check{
+                        margin-left: 30px;
+                        p{  
+                            @extend .roboto400;
+                            color: $white;
+                            font-size: 16px;
+                        }
+                    }
+                    .money{
+                        @extend .poppins600;
+                        text-align: center;
+                        font-size: 40px;
+                        margin-top: 60px;
+                        .amount{
+                            color:$white;
+                        }
+                    }
+                    .button2{
+                        text-align: center;
+                        
+                        .donate{
+                            @extend .upper;
+                            @extend .roboto400;
+                            color: $white;
+                            background: $fourth;
+                            font-size: 20px;
+                            text-decoration: none;
+                            line-height: 103.69%;
+                            border: 1px solid $fourth;
+                            border-radius: 10px;
+                            padding: 15px 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .features{
+        background: $secondary;
+        height: 525px; 
+        .container{
+            @extend .flex-between;
+            .card{
+                @extend .upper;
+                @extend .poppins400;
+                color:$white;
+                font-size: 17px;
+                line-height: 103.69%;
+                text-align: center;
+                margin-top: 65px;
+                .card-text{
+                    width: 285px;
+                    height: 140px;
+                } 
+
+            }
+        }   
+    }
+    .data{
+        background:$white;
+        height: 890px; 
+        .container{
+            .graphics{
+                width: 70%;
+                height: 400px;
+                background: $tertiary;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                margin: 200px 200px;
+                .table{
+                    @extend .upper;
+                    @extend .poppins400;
+                    width: 300px;
+                    margin: 80px 0 0 50px;
+                    text-align: center;
+                    font-size: 10px;
+                    line-height: 103.69%;
+                    color: #5B5B5B;
+                    .data-img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .hashtag{
+        background: linear-gradient(to right, $primary, $secondary );
+        background-color: $secondary;
+        height: 242px;
+        .container{
+            .text-hashtag{
+                @extend .poppins700;
+                font-size: 60px;
+                text-align: center;
+                color: $white;
+                // margin: 30px 0 0 250px;
+            }
+
+        }
+    }
+    footer{
+        background: $white;
+        height:357px;
+        .container{
+            @extend .flex-between;
+            .main-logo{
+                .logo-img{
+                    margin: 150px 0;
+                    
+                }
+            }
+            .footer-menu{
+                margin: 180px 0;
+                a{
+                    @extend .poppins600;
+                    margin: 0 40px;
+                    color: #999999;
+                    // display: inline-block; 
+                    text-decoration: none;
+                    font-size: 30px;
+                    line-height: 30px;
+                    letter-spacing: -0.01em;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
