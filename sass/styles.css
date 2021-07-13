@@ -39,14 +39,12 @@
 
 .container {
   width: 90%;
-  max-width: 1440px;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 header {
   background: #FFFFFF;
-  height: 212px;
 }
 
 header .container .main-logo .logo-img {
@@ -80,12 +78,10 @@ header .container .menu .sum {
 
 main .be-part {
   background: #C4C4C4;
-  height: 528px;
 }
 
 main .be-part .partner-text {
   width: 1000px;
-  height: 500px;
   padding-top: 50px;
 }
 
@@ -135,7 +131,6 @@ main .be-part .be-partner .login input {
 
 main .be-part .be-partner .login .field {
   width: 310px;
-  height: 45px;
   padding: 10px;
   margin-top: 20px;
   background: #FFFFFF;
@@ -146,7 +141,6 @@ main .be-part .be-partner .login .field {
 
 main .be-part .be-partner .login .button {
   width: 250px;
-  height: 35px;
   background: #999999;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -159,7 +153,6 @@ main .be-part .be-partner .login .button {
 
 main .food-rations {
   background: white;
-  height: 287px;
   padding-top: 30px;
 }
 
@@ -169,7 +162,6 @@ main .food-rations .container .logo .logo2 {
 
 main .our-core {
   background: #C4C4C4;
-  height: 525px;
 }
 
 main .our-core .container .description h2 {
@@ -196,11 +188,9 @@ main .our-core .container .photos .photo {
 
 main .payment {
   background: #FFFFFF;
-  height: 887px;
 }
 
 main .payment .container h3 {
-  height: 57px;
   font-size: 55px;
   line-height: 103.69%;
   text-align: center;
@@ -215,14 +205,12 @@ main .payment .container .container-payment {
 main .payment .container .container-payment .card1 {
   margin-top: 25px;
   width: 300px;
-  height: 450px;
   border: 4px solid #C4C4C4;
   border-radius: 20px;
 }
 
 main .payment .container .container-payment .card1 .tittle1 h4 {
   width: 250px;
-  height: 58px;
   margin-left: 20px;
   font-size: 25px;
   line-height: 103.69%;
@@ -265,7 +253,6 @@ main .payment .container .container-payment .card1 .button2 .donate {
 main .payment .container .container-payment .card2 {
   margin: 0 50px;
   width: 300px;
-  height: 480px;
   background: #E19A28;
   border: 4px solid #E19A28;
   border-radius: 20px;
@@ -273,7 +260,6 @@ main .payment .container .container-payment .card2 {
 
 main .payment .container .container-payment .card2 .tittle2 h4 {
   width: 250px;
-  height: 58px;
   margin-left: 20px;
   font-size: 25px;
   line-height: 103.69%;
@@ -317,7 +303,6 @@ main .payment .container .container-payment .card2 .button2 .donate {
 
 main .features {
   background: #ED6336;
-  height: 525px;
 }
 
 main .features .container .card {
@@ -330,12 +315,10 @@ main .features .container .card {
 
 main .features .container .card .card-text {
   width: 285px;
-  height: 140px;
 }
 
 main .data {
   background: #FFFFFF;
-  height: 890px;
 }
 
 main .data .container .graphics {
@@ -365,7 +348,6 @@ main .hashtag {
   background: -webkit-gradient(linear, left top, right top, from(#E19A28), to(#ED6336));
   background: linear-gradient(to right, #E19A28, #ED6336);
   background-color: #ED6336;
-  height: 242px;
 }
 
 main .hashtag .container .text-hashtag {
@@ -395,5 +377,30 @@ main footer .container .footer-menu a {
   line-height: 30px;
   letter-spacing: -0.01em;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 1200px) {
+  header .container .main-logo .logo-img {
+    width: 50%;
+    margin: 40px 0 70px 2px;
+  }
+  header .container .menu {
+    margin: 44px 0;
+    font-size: 1px;
+  }
+  header .container .menu a {
+    margin: 0 10px;
+    color: #999999;
+    text-decoration: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  header .container .menu .sum {
+    border: 2px solid #C4C4C4;
+    border-radius: 16px;
+    padding: 5px 12px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

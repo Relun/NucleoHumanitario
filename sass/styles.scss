@@ -9,8 +9,8 @@ $secondary: #ED6336;
 $tertiary: #C4C4C4;
 $fourth: #ED744A;
 $fifth: #706A6A;
-
 $white: #FFFFFF;
+
 
 .flex-between{
     display: flex;
@@ -44,14 +44,14 @@ $white: #FFFFFF;
 
 .container{
     width: 90%;
-    max-width: 1440px;
-    margin: auto;
+    // max-width: 1440px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 header{
     background: $white;
-    height: 212px;
+    // height: 212px;
     .container{
         @extend .flex-between;
         .main-logo{
@@ -86,13 +86,13 @@ header{
 main{
     .be-part{
         background: $tertiary;
-        height: 528px;
+        // height: 528px;
         .container{
             @extend .flex-between;
         }
         .partner-text{
             width: 1000px;
-            height: 500px;
+            // height: 500px;
             padding-top: 50px;
             h1{
                 @extend .upper;
@@ -138,7 +138,7 @@ main{
                 }    
                 .field{
                     width: 310px;
-                    height: 45px;
+                    // height: 45px;
                     padding: 10px;
                     margin-top: 20px;
                     background: $white;
@@ -148,7 +148,7 @@ main{
                 .button{
                     @extend .roboto400;
                     width: 250px;
-                    height: 35px;
+                    // height: 35px;
                     background: #999999;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                     border-radius: 20px;
@@ -162,7 +162,7 @@ main{
     }
     .food-rations{
         background: white;
-        height: 287px;
+        // height: 287px;
         padding-top: 30px;
         .container{
             @extend .flex-between;
@@ -176,7 +176,7 @@ main{
     }
     .our-core{
         background: $tertiary;
-        height: 525px;
+        // height: 525px;
         .container{
             @extend .flex-between;
             .description{
@@ -205,12 +205,12 @@ main{
     }
     .payment{
         background:$white;
-        height: 887px;
+        // height: 887px;
         .container{
             h3{
                 @extend .upper;
                 @extend .poppins700;
-                height: 57px;
+                // height: 57px;
                 // padding: 50px 0;
                 font-size: 55px;
                 line-height: 103.69%;
@@ -223,7 +223,7 @@ main{
                 .card1{
                     margin-top: 25px;
                     width: 300px;
-                    height: 450px;
+                    // height: 450px;
                     border: 4px solid $tertiary;
                     border-radius: 20px;
                     .tittle1{
@@ -231,7 +231,7 @@ main{
                             @extend .upper;
                             @extend .poppins600;
                             width: 250px;
-                            height: 58px;
+                            // height: 58px;
                             margin-left: 20px;
                             font-size: 25px;
                             line-height: 103.69%;
@@ -273,7 +273,7 @@ main{
                 .card2{
                     margin: 0 50px;
                     width: 300px;
-                    height: 480px;
+                    // height: 480px;
                     background: $primary;
                     border: 4px solid $primary;
                     border-radius: 20px;
@@ -282,7 +282,7 @@ main{
                             @extend .upper;
                             @extend .poppins600;
                             width: 250px;
-                            height: 58px;
+                            // height: 58px;
                             margin-left: 20px;
                             font-size: 25px;
                             line-height: 103.69%;
@@ -329,7 +329,7 @@ main{
     }
     .features{
         background: $secondary;
-        height: 525px; 
+        // height: 525px; 
         .container{
             @extend .flex-between;
             .card{
@@ -342,7 +342,7 @@ main{
                 margin-top: 65px;
                 .card-text{
                     width: 285px;
-                    height: 140px;
+                    // height: 140px;
                 } 
 
             }
@@ -350,7 +350,7 @@ main{
     }
     .data{
         background:$white;
-        height: 890px; 
+        // height: 890px; 
         .container{
             .graphics{
                 width: 70%;
@@ -378,7 +378,7 @@ main{
     .hashtag{
         background: linear-gradient(to right, $primary, $secondary );
         background-color: $secondary;
-        height: 242px;
+        // height: 242px;
         .container{
             .text-hashtag{
                 @extend .poppins700;
@@ -414,6 +414,38 @@ main{
                     letter-spacing: -0.01em;
                     text-transform: capitalize;
                 }
+            }
+        }
+    }
+}
+
+
+// media queries
+@media screen and (max-width: 1200px){
+   
+    header{
+        .container{
+            // @extend .flex-between;
+            .main-logo{
+                .logo-img{
+                    width: 50%;
+                }
+            }
+            .menu{
+                margin: 44px 0;
+                font-size: 1px;
+                a{
+                    // @extend .roboto400;
+                    margin: 0 10px;
+                    // display: inline-block;
+                    // font-size: 1px;
+                    // line-height: 23px;
+                }
+                // .sum{
+                //     border: 2px solid $tertiary;
+                //     border-radius: 16px;
+                //     padding: 5px 12px;
+                // }
             }
         }
     }
