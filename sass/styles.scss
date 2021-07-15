@@ -51,7 +51,6 @@ $white: #FFFFFF;
 
 header{
     background: $white;
-    // height: 212px;
     .container{
         @extend .flex-between;
         .main-logo{
@@ -87,13 +86,11 @@ main{
     .be-part{
         background: $tertiary;
         padding-bottom: 45px;
-        // height: 528px;
         .container{
             @extend .flex-between;
         }
         .partner-text{
             width: 1000px;
-            // height: 500px;
             padding-top: 50px;
             h1{
                 @extend .upper;
@@ -139,7 +136,6 @@ main{
                 }    
                 .field{
                     width: 310px;
-                    // height: 45px;
                     padding: 10px;
                     margin-top: 20px;
                     background: $white;
@@ -149,7 +145,6 @@ main{
                 .button{
                     @extend .roboto400;
                     width: 250px;
-                    // height: 35px;
                     background: #999999;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                     border-radius: 20px;
@@ -163,7 +158,6 @@ main{
     }
     .food-rations{
         background: white;
-        // height: 287px;
         padding-top: 30px;
         .container{
             @extend .flex-between;
@@ -182,10 +176,11 @@ main{
     }
     .our-core{
         background: $tertiary;
-        // height: 525px;
         .container{
             @extend .flex-between;
             .description{
+                width: 40%;
+                margin-right: 15px;
                 h2{
                     color:$fourth;
                     font-family: "Roboto";
@@ -212,13 +207,10 @@ main{
     .payment{
         background:$white;
         padding-bottom: 60px;
-        // height: 887px;
         .container{
             h3{
                 @extend .upper;
                 @extend .poppins700;
-                // height: 57px;
-                // padding: 50px 0;
                 font-size: 55px;
                 line-height: 103.69%;
                 text-align: center;
@@ -230,7 +222,6 @@ main{
                 .card1{
                     margin-top: 25px;
                     width: 300px;
-                    // height: 450px;
                     border: 4px solid $tertiary;
                     border-radius: 20px;
                     padding-bottom: 45px;
@@ -239,7 +230,6 @@ main{
                             @extend .upper;
                             @extend .poppins600;
                             width: 250px;
-                            // height: 58px;
                             margin-left: 20px;
                             font-size: 25px;
                             line-height: 103.69%;
@@ -281,7 +271,6 @@ main{
                 .card2{
                     margin: 0 50px;
                     width: 300px;
-                    // height: 480px;
                     background: $primary;
                     border: 4px solid $primary;
                     border-radius: 20px;
@@ -291,7 +280,6 @@ main{
                             @extend .upper;
                             @extend .poppins600;
                             width: 250px;
-                            // height: 58px;
                             margin-left: 20px;
                             font-size: 25px;
                             line-height: 103.69%;
@@ -338,7 +326,6 @@ main{
     }
     .features{
         background: $secondary;
-        // height: 525px; 
         .container{
             @extend .flex-between;
             .card{
@@ -351,7 +338,6 @@ main{
                 margin-top: 65px;
                 .card-text{
                     width: 285px;
-                    // height: 140px;
                 } 
 
             }
@@ -359,7 +345,6 @@ main{
     }
     .data{
         background:$white;
-        // height: 890px; 
         .container{
             .graphics{
                 display: flex;
@@ -401,21 +386,18 @@ main{
     .hashtag{
         background: linear-gradient(to right, $primary, $secondary );
         background-color: $secondary;
-        // height: 242px;
         .container{
             .text-hashtag{
                 @extend .poppins700;
                 font-size: 60px;
                 text-align: center;
                 color: $white;
-                // margin: 30px 0 0 250px;
             }
 
         }
     }
     footer{
         background: $white;
-        // height:357px;
         .container{
             @extend .flex-between;
             .main-logo{
@@ -430,7 +412,6 @@ main{
                     @extend .poppins600;
                     margin: 0 40px;
                     color: #999999;
-                    // display: inline-block; 
                     text-decoration: none;
                     font-size: 30px;
                     line-height: 30px;
@@ -520,7 +501,7 @@ main{
         .our-core{
             .container{
                 .description{
-                    margin-right: 20px;
+                    // width: 30%;
                     h2{
                         font-size: 40px;
                     }
@@ -529,8 +510,9 @@ main{
                     }
                 }
                 .photos{
+                    width: 80%;
                     .photo{
-                        width: auto;
+                        width: 100%;   
                     }
                 }
             }
@@ -648,4 +630,294 @@ main{
     }
 }
 
+@media screen and (max-width: 960px){
+    // header{
 
+    // }
+    
+    main{
+        .be-part{
+            .partner-text{
+                h1{
+                    font-size: 49px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .be-partner{
+                .login{
+                    font-size: 12px;
+                }
+            }
+        }
+        .food-rations{
+            .container{
+                .logo{
+                    .logo2{
+                        margin: 22px 0 0 40px;
+                    }
+                 }
+            .food{
+                .text-photo{
+                    width: 65%;
+                }
+            }
+            }
+        }
+        .our-core{
+            .container{
+                .description{
+                    h2{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+                .photos{
+                    width: 60%;
+                }
+            }
+        }
+        .payment{
+            .container{
+                h3{
+                    font-size: 28px;
+                    padding: 30px 0;
+                }
+                .container-payment{
+                    .card1{
+                        border-radius: 12px;
+                        .tittle1{
+                            h4{
+                                font-size: 16px;
+                            }
+                        }
+                        .check{
+                            p{
+                                font-size: 11px;
+                            }
+                        }
+                        .money{
+                            font-size: 27px;
+                        }
+                        .button2{
+                            .donate{
+                                font-size: 14px;
+                                padding: 8px 30px;
+                            }
+                        }
+                    }
+                    .card2{
+                        border-radius: 12px;
+                        .tittle2{
+                            h4{
+                                font-size: 16px;
+                            }
+                        }
+                        .check{
+                            p{  
+                                font-size: 11px;
+                            }
+                        }
+                        .money{
+                            font-size: 27px;
+                        }
+                        .button2{
+                            .donate{
+                                font-size: 14px;
+                                padding: 8px 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .features{
+            padding: 10px 30px 30px 30px;
+             .container{
+                 .card{
+                    font-size: 10px;
+                }
+            }   
+        }
+        .data{
+            .container{
+                .graphics{
+                    height: 300px;
+                    margin: 100px auto;
+                    .table{
+                        font-size: 8px;
+                    }
+                    .pacman{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+        .hashtag{
+            .container{
+                .text-hashtag{
+                    font-size: 43px;
+                }
+            }
+        }
+        footer{
+            .container{
+                    display: flex;
+                    justify-content: space-around; 
+                .main-logo{
+                    width: 40%;
+                    .logo-img{
+                        width: 60%;   
+                        margin: 60px 0;
+                    }
+                }
+                .footer-menu{
+                    margin: auto 0;
+                    a{
+                        font-size: 9px;
+                    }
+                }
+            }
+            }
+        }
+    }
+
+
+
+@media screen and (max-width: 768px){
+      // header{
+    // }  
+    main{
+        .be-part{
+            .container{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                align-items: center;
+            .partner-text{
+                width: 100%;
+                margin-top: 30px;
+                margin-bottom: 40px;
+                a{
+                    margin-left: auto;
+                }
+            }
+            .be-partner{
+                width: 60%;
+                margin:0;
+            }
+        }
+    }
+        .food-rations{
+            .container{
+                // display: flex;
+                // flex-direction: column;
+                // flex-wrap: wrap;
+                text-align: center;
+                .logo{
+                    display: none;
+                 }
+        }
+    }
+        .our-core{
+            .container{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                align-items: center;
+                .description{
+                    width: 100%;
+                    margin-bottom: 30px;
+                    h2{
+                        font-size: 33px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                .photos{
+                    width: 100%;
+                }
+            }
+        }
+        .payment{
+            .container{
+                .container-payment{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    .card1{
+                        width: 40%;
+                    }
+                    .card2{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+        .features{
+             .container{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }   
+        }
+        .data{
+            .container{
+                .graphics{
+                    height: auto;
+                    .table{
+                        font-size: 7px;
+                        margin-top: 40px; 
+                        margin-bottom: 20px;
+                    }
+                    .pacman{
+                        font-size: 7px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+        .hashtag{
+            .container{
+                .text-hashtag{
+                    font-size: 38px;
+                }
+            }
+        }
+        // footer{
+        //     .container{
+        //             display: flex;
+        //             justify-content: space-around; 
+        //         .main-logo{
+        //             width: 40%;
+        //             .logo-img{
+        //                 width: 50%;   
+        //                 margin: 60px 0;
+        //             }
+        //         }
+        //         .footer-menu{
+        //             margin: auto 0;
+        //             a{
+        //                 font-size: 9px;
+        //             }
+        //         }
+        //     }
+        //     }
+        // }
+    
+}
+
+// @media screen and (max-width: 480px){
+
+// }
+
+
+}

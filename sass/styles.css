@@ -169,6 +169,11 @@ main .our-core {
   background: #C4C4C4;
 }
 
+main .our-core .container .description {
+  width: 40%;
+  margin-right: 15px;
+}
+
 main .our-core .container .description h2 {
   color: #ED744A;
   font-family: "Roboto";
@@ -457,17 +462,17 @@ main footer .container .footer-menu a {
   main .food-rations .container .food .text-photo {
     width: 70%;
   }
-  main .our-core .container .description {
-    margin-right: 20px;
-  }
   main .our-core .container .description h2 {
     font-size: 40px;
   }
   main .our-core .container .description p {
     font-size: 17px;
   }
+  main .our-core .container .photos {
+    width: 80%;
+  }
   main .our-core .container .photos .photo {
-    width: auto;
+    width: 100%;
   }
   main .payment .container h3 {
     font-size: 35px;
@@ -544,6 +549,221 @@ main footer .container .footer-menu a {
   }
   main footer .container .footer-menu a {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  main .be-part .partner-text h1 {
+    font-size: 49px;
+  }
+  main .be-part .partner-text p {
+    font-size: 16px;
+  }
+  main .be-part .be-partner .login {
+    font-size: 12px;
+  }
+  main .food-rations .container .logo .logo2 {
+    margin: 22px 0 0 40px;
+  }
+  main .food-rations .container .food .text-photo {
+    width: 65%;
+  }
+  main .our-core .container .description h2 {
+    font-size: 30px;
+  }
+  main .our-core .container .description p {
+    font-size: 14px;
+  }
+  main .our-core .container .photos {
+    width: 60%;
+  }
+  main .payment .container h3 {
+    font-size: 28px;
+    padding: 30px 0;
+  }
+  main .payment .container .container-payment .card1 {
+    border-radius: 12px;
+  }
+  main .payment .container .container-payment .card1 .tittle1 h4 {
+    font-size: 16px;
+  }
+  main .payment .container .container-payment .card1 .check p {
+    font-size: 11px;
+  }
+  main .payment .container .container-payment .card1 .money {
+    font-size: 27px;
+  }
+  main .payment .container .container-payment .card1 .button2 .donate {
+    font-size: 14px;
+    padding: 8px 30px;
+  }
+  main .payment .container .container-payment .card2 {
+    border-radius: 12px;
+  }
+  main .payment .container .container-payment .card2 .tittle2 h4 {
+    font-size: 16px;
+  }
+  main .payment .container .container-payment .card2 .check p {
+    font-size: 11px;
+  }
+  main .payment .container .container-payment .card2 .money {
+    font-size: 27px;
+  }
+  main .payment .container .container-payment .card2 .button2 .donate {
+    font-size: 14px;
+    padding: 8px 30px;
+  }
+  main .features {
+    padding: 10px 30px 30px 30px;
+  }
+  main .features .container .card {
+    font-size: 10px;
+  }
+  main .data .container .graphics {
+    height: 300px;
+    margin: 100px auto;
+  }
+  main .data .container .graphics .table {
+    font-size: 8px;
+  }
+  main .data .container .graphics .pacman {
+    font-size: 8px;
+  }
+  main .hashtag .container .text-hashtag {
+    font-size: 43px;
+  }
+  main footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main footer .container .main-logo {
+    width: 40%;
+  }
+  main footer .container .main-logo .logo-img {
+    width: 60%;
+    margin: 60px 0;
+  }
+  main footer .container .footer-menu {
+    margin: auto 0;
+  }
+  main footer .container .footer-menu a {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .be-part .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .be-part .container .partner-text {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  main .be-part .container .partner-text a {
+    margin-left: auto;
+  }
+  main .be-part .container .be-partner {
+    width: 60%;
+    margin: 0;
+  }
+  main .food-rations .container {
+    text-align: center;
+  }
+  main .food-rations .container .logo {
+    display: none;
+  }
+  main .our-core .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .our-core .container .description {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  main .our-core .container .description h2 {
+    font-size: 33px;
+  }
+  main .our-core .container .description p {
+    font-size: 16px;
+  }
+  main .our-core .container .photos {
+    width: 100%;
+  }
+  main .payment .container .container-payment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .payment .container .container-payment .card1 {
+    width: 40%;
+  }
+  main .payment .container .container-payment .card2 {
+    width: 40%;
+  }
+  main .features .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .data .container .graphics {
+    height: auto;
+  }
+  main .data .container .graphics .table {
+    font-size: 7px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  main .data .container .graphics .pacman {
+    font-size: 7px;
+    margin-top: 40px;
+  }
+  main .hashtag .container .text-hashtag {
+    font-size: 38px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
