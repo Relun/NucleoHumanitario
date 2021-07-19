@@ -820,9 +820,6 @@ main{
     }
         .food-rations{
             .container{
-                // display: flex;
-                // flex-direction: column;
-                // flex-wrap: wrap;
                 text-align: center;
                 .logo{
                     display: none;
@@ -902,7 +899,7 @@ main{
         // }
     
 }
-
+}
 @media screen and (max-width: 480px){
     // header{
     // }  
@@ -1005,13 +1002,14 @@ main{
                             }
                         }
                     }
+                }
             }
         }
         .features{
-             .container{
-                 .card{
+            .container{
+                .card{
                     font-size: 12px;
-                 }
+                }
 
             }   
         }
@@ -1045,5 +1043,4 @@ main{
 
 }
 
-}
-}
+

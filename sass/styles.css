@@ -775,7 +775,7 @@ main footer .container .footer-menu a {
   }
 }
 
-@media screen and (max-width: 768px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   main .be-part .container .partner-text h1 {
     font-size: 46px;
   }
@@ -837,10 +837,10 @@ main footer .container .footer-menu a {
     font-size: 17px;
     padding: 12px 33px;
   }
-  main .payment .features .container .card {
+  main .features .container .card {
     font-size: 12px;
   }
-  main .payment .hashtag .container .text-hashtag {
+  main .hashtag .container .text-hashtag {
     font-size: 27px;
   }
 }
