@@ -117,6 +117,12 @@ main{
                 border: 1px solid $fourth;
                 border-radius: 18px;
                 padding: 5px 30px;
+                &:hover{
+                    background-color:#be9d86;
+                }
+                &:active{
+                    background-color: #FFFFFF;
+                }
                 
             }
         }
@@ -893,31 +899,118 @@ main{
             }
         }
         // footer{
-        //     .container{
-        //             display: flex;
-        //             justify-content: space-around; 
-        //         .main-logo{
-        //             width: 40%;
-        //             .logo-img{
-        //                 width: 50%;   
-        //                 margin: 60px 0;
-        //             }
-        //         }
-        //         .footer-menu{
-        //             margin: auto 0;
-        //             a{
-        //                 font-size: 9px;
-        //             }
-        //         }
-        //     }
-        //     }
         // }
     
 }
 
-// @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
+    // header{
+    // }  
+    main{
+        .be-part{
+            .container{
+            .partner-text{
+                h1{
+                    font-size: 48px;
+              
+                }
+                p{
+                    font-size: 18px;
 
-// }
+                }
+                a{
+                    font-size: 19px;
+                    padding: 10px 30px;
+                }
+            }
+            .be-partner{
+                width: 90%;
+                .login{
+                    font-size: 14px;
+                    .button{
+                        font-size: 17px;
+                        padding: 15px 0;
+                    }
+                    .field{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+        .food-rations{
+            .container{
+                .food{
+                    .text-photo{
+                        width: 85%;
+                    }
+                }
+        }
+    }
+        .our-core{
+            .container{
+                .description{
+                    h2{
+                        font-size: 37px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .payment{
+            .container{
+                h3{
+                    font-size: 30px;
+                }
+                .container-payment{
+                    .card1{
+                        width: 70%;
+                    }
+                    .card2{
+                        width: 70%;
+                    }
+                }
+            }
+        }
+        // .features{
+        //      .container{
+        //         display: flex;
+        //         flex-direction: column;
+        //         flex-wrap: wrap;
+        //         align-items: center;
+        //     }   
+        // }
+        // .data{
+        //     .container{
+        //         .graphics{
+        //             height: auto;
+        //             .table{
+        //                 font-size: 7px;
+        //                 margin-top: 40px; 
+        //                 margin-bottom: 20px;
+        //             }
+        //             .pacman{
+        //                 font-size: 7px;
+        //                 margin-top: 40px;
+        //             }
+        //         }
+        //     }
+        // }
+        // .hashtag{
+        //     .container{
+        //         .text-hashtag{
+        //             font-size: 38px;
+        //         }
+        //     }
+        // }
+        // footer{
+        // }
+    
+}
+
+}
 
 
 }

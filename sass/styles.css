@@ -112,6 +112,14 @@ main .be-part .partner-text a {
   padding: 5px 30px;
 }
 
+main .be-part .partner-text a:hover {
+  background-color: #be9d86;
+}
+
+main .be-part .partner-text a:active {
+  background-color: #FFFFFF;
+}
+
 main .be-part .be-partner {
   background: #E19A28;
   margin: 40px 80px 40px 10px;
@@ -764,6 +772,50 @@ main footer .container .footer-menu a {
   }
   main .hashtag .container .text-hashtag {
     font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  main .be-part .container .partner-text h1 {
+    font-size: 48px;
+  }
+  main .be-part .container .partner-text p {
+    font-size: 18px;
+  }
+  main .be-part .container .partner-text a {
+    font-size: 19px;
+    padding: 10px 30px;
+  }
+  main .be-part .container .be-partner {
+    width: 90%;
+  }
+  main .be-part .container .be-partner .login {
+    font-size: 14px;
+  }
+  main .be-part .container .be-partner .login .button {
+    font-size: 17px;
+    padding: 15px 0;
+  }
+  main .be-part .container .be-partner .login .field {
+    padding: 20px;
+  }
+  main .food-rations .container .food .text-photo {
+    width: 85%;
+  }
+  main .our-core .container .description h2 {
+    font-size: 37px;
+  }
+  main .our-core .container .description p {
+    font-size: 18px;
+  }
+  main .payment .container h3 {
+    font-size: 30px;
+  }
+  main .payment .container .container-payment .card1 {
+    width: 70%;
+  }
+  main .payment .container .container-payment .card2 {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
