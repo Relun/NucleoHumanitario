@@ -777,7 +777,7 @@ main footer .container .footer-menu a {
 
 @media screen and (max-width: 768px) and (max-width: 480px) {
   main .be-part .container .partner-text h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   main .be-part .container .partner-text p {
     font-size: 18px;
@@ -814,8 +814,34 @@ main footer .container .footer-menu a {
   main .payment .container .container-payment .card1 {
     width: 70%;
   }
+  main .payment .container .container-payment .card1 .tittle1 h4 {
+    font-size: 19px;
+  }
+  main .payment .container .container-payment .card1 .check p {
+    font-size: 14px;
+  }
+  main .payment .container .container-payment .card1 .button2 .donate {
+    font-size: 17px;
+    padding: 12px 33px;
+  }
   main .payment .container .container-payment .card2 {
     width: 70%;
+  }
+  main .payment .container .container-payment .card2 .tittle2 h4 {
+    font-size: 19px;
+  }
+  main .payment .container .container-payment .card2 .check p {
+    font-size: 14px;
+  }
+  main .payment .container .container-payment .card2 .button2 .donate {
+    font-size: 17px;
+    padding: 12px 33px;
+  }
+  main .payment .features .container .card {
+    font-size: 12px;
+  }
+  main .payment .hashtag .container .text-hashtag {
+    font-size: 27px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

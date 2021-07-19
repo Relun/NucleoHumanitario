@@ -911,7 +911,7 @@ main{
             .container{
             .partner-text{
                 h1{
-                    font-size: 48px;
+                    font-size: 46px;
               
                 }
                 p{
@@ -967,21 +967,54 @@ main{
                 .container-payment{
                     .card1{
                         width: 70%;
+                        .tittle1{
+                            h4{
+                                font-size: 19px;
+                            }
+                           
+                        }
+                        .check{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                        .button2{
+                            .donate{
+                                font-size: 17px;
+                                padding: 12px 33px;
+                            }
+                        }
                     }
                     .card2{
                         width: 70%;
+                        .tittle2{
+                            h4{
+                                font-size: 19px;
+                            }
+                           
+                        }
+                        .check{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                        .button2{
+                            .donate{
+                                font-size: 17px;
+                                padding: 12px 33px;
+                            }
+                        }
                     }
-                }
             }
         }
-        // .features{
-        //      .container{
-        //         display: flex;
-        //         flex-direction: column;
-        //         flex-wrap: wrap;
-        //         align-items: center;
-        //     }   
-        // }
+        .features{
+             .container{
+                 .card{
+                    font-size: 12px;
+                 }
+
+            }   
+        }
         // .data{
         //     .container{
         //         .graphics{
@@ -998,13 +1031,13 @@ main{
         //         }
         //     }
         // }
-        // .hashtag{
-        //     .container{
-        //         .text-hashtag{
-        //             font-size: 38px;
-        //         }
-        //     }
-        // }
+        .hashtag{
+            .container{
+                .text-hashtag{
+                    font-size: 27px;
+                }
+            }
+        }
         // footer{
         // }
     
@@ -1012,5 +1045,5 @@ main{
 
 }
 
-
+}
 }
