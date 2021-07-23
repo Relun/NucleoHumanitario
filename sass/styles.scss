@@ -206,7 +206,6 @@ main{
                 p{
                     @extend .roboto400;
                     font-size: 20px;
-                    // line-height: 103.69%;
                     align-items: center;
                     letter-spacing: -0.005em;
                     color: #625F5F;
@@ -375,7 +374,7 @@ main{
                     width: 300px;
                     margin: 100px 0 0 50px;
                     text-align: center;
-                    font-size: 10px;
+                    font-size: 11px;
                     line-height: 103.69%;
                     color: #5B5B5B;
                     .data-img{
@@ -388,7 +387,7 @@ main{
                     width: 300px;
                     margin: 100px 20px 0 120px;
                     text-align: center;
-                    font-size: 10px;
+                    font-size: 11px;
                     line-height: 103.69%;
                     color: #5B5B5B;
                     .circle-img{
@@ -516,7 +515,6 @@ main{
         .our-core{
             .container{
                 .description{
-                    // width: 30%;
                     h2{
                         font-size: 40px;
                     }
@@ -647,25 +645,7 @@ main{
 
 @media screen and (max-width: 960px){
     // header{
-    //     .container{
 
-    //         .main-logo{
-    //             .logo-img{
-    //                 width: 40%;
-    //             }
-    //         }
-    //         .menu{
-    //             display: flex;
-    //             flex-direction: column;
-    //             flex-wrap: wrap;
-    //             width: 50%;
-    //             margin: auto 0;
-    //             a{
-    //                 margin: 0 6px;
-    //                 font-size: 17px;
-    //             }
-    //         }
-    //     }
     // }
     
     main{
@@ -788,7 +768,7 @@ main{
             .container{
                 .graphics{
                     height: 300px;
-                    margin: 100px auto;
+                    margin: 80px auto;
                     .table{
                         font-size: 8px;
                     }
@@ -836,11 +816,6 @@ main{
 @media screen and (max-width: 768px){
     header{
         .container{
-            // display: flex;
-            // flex-direction: column;
-            // flex-wrap: wrap;
-            // align-items: center;
-
             .main-logo{
                 .logo-img{
                     width: 60%;
@@ -850,9 +825,6 @@ main{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                // width: 100%;
-                // margin: auto 0 20px 0;
-                // transition: all 0.4s linear;
                 a{
                     margin: 5px 6px;
                     font-size: 18px;
@@ -982,8 +954,6 @@ main{
                             font-size: 29px;
                             .amount{
                                 margin-top: 30px;
-                                
-
                             }
 
                             
@@ -1025,7 +995,7 @@ main{
                     align-items: center;
                     height: auto;
                     .table{
-                        width: 70%;
+                        width: 84%;
                         font-size: 12px;
                         margin: 40px 0;
                     }
@@ -1103,44 +1073,10 @@ main{
         }
     }
     //     .food-rations{
-    //         .container{
-    //             text-align: center;
-    //             .food{
-    //                 .text-photo{
-    //                     margin-left: 40px;
-    //                 }
-    //             }
-    //             .logo{
-    //                 display: none;
-    //              }
-    //     }
+
     // }
         // .our-core{
-        //     .container{
-        //         display: flex;
-        //         flex-direction: column;
-        //         flex-wrap: wrap;
-        //         text-align: center;
-        //         align-items: center;
-        //         .description{
-        //             width: 100%;
-        //             margin-bottom: 30px;
-        //             h2{
-        //                 font-size: 33px;
-        //             }
-        //             p{
-        //                 font-size: 16px;
-        //                 width: 90%;
-        //                 margin: auto;
-        //             }
-        //         }
-        //         .photos{
-        //             width: 100%;
-        //             .photo{
-        //                 margin-bottom: 35px;
-        //             }
-        //         }
-        //     }
+
         // }
         .payment{
             .container{
@@ -1150,8 +1086,6 @@ main{
                         .tittle1{
                             h4{
                                 font-size: 20px;
-                                // margin-left: 10px;
-
                             }
                             
                         }
@@ -1181,44 +1115,18 @@ main{
                 }
             }
         }
-        // .features{
-        //      .container{
-        //         display: flex;
-        //         flex-direction: column;
-        //         flex-wrap: wrap;
-        //         align-items: center;
-        //     }   
+        // .features{   
         // }
 
         // .data{
         //     .container{
         //         .graphics{
-        //             display: flex;
-        //             flex-direction: column;
-        //             flex-wrap: wrap;
-        //             text-align: center;
-        //             align-items: center;
-        //             height: auto;
-        //             .table{
-        //                 width: 70%;
-        //                 font-size: 13px;
-        //                 margin: 40px 0;
-        //             }
-        //             .pacman{
-        //                 width: 70%;
-        //                 font-size: 13px;
-        //                 margin-top: 40px;
-        //                 margin: 30px 0;
-                        
-        //             }
         //         }
         //     }
         // }
         // .hashtag{
         //     .container{
-        //         .text-hashtag{
-        //             font-size: 38px;
-        //         }
+
         //     }
         // }
         footer{
@@ -1240,13 +1148,7 @@ main{
 @media screen and (max-width: 480px){
     header{
         .container{
-            // .main-logo{
-            //     .logo-img{
-            //          margin: 40px 0 70px 55px;
-            //     }
-            // }
             .menu{
-                // margin: 88px 0;
                 a{
                     font-size: 16px;
                 }
@@ -1256,18 +1158,12 @@ main{
                 .we{
                     display: block;
                 }
-                // .sum{
-                    
-                //     border-radius: 16px;
-                //     padding: 5px 12px;
-                // }
             }
         }
     } 
     main{
         .be-part{
             .container{
-                // text-align: start;
             .partner-text{
                 h1{
                     font-size: 40px;
@@ -1332,14 +1228,10 @@ main{
                         .tittle1{
                             h4{
                                 font-size: 19px;
-                            }
-                           
+                            }                          
                         }
                         .check{
                             margin-left: 30px;
-                            p{
-                                font-size: 13px;
-                            }
                         }
                         .button2{
                             .donate{
@@ -1358,9 +1250,6 @@ main{
                         }
                         .check{
                             margin-left: 30px;
-                            p{
-                                font-size: 13px;
-                            }
                         }
                         .button2{
                             .donate{
@@ -1380,22 +1269,18 @@ main{
 
             }   
         }
-        // .data{
-        //     .container{
-        //         .graphics{
-        //             height: auto;
-        //             .table{
-        //                 font-size: 7px;
-        //                 margin-top: 40px; 
-        //                 margin-bottom: 20px;
-        //             }
-        //             .pacman{
-        //                 font-size: 7px;
-        //                 margin-top: 40px;
-        //             }
-        //         }
-        //     }
-        // }
+        .data{
+            .container{
+                .graphics{
+                    width: 76%;
+                    .pacman {
+                        .circle-img {
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+        }
         .hashtag{
             .container{
                 .text-hashtag{
@@ -1420,120 +1305,38 @@ main{
 @media screen and (max-width: 376px){
     header{
         .container{
-            // .main-logo{
-            //     .logo-img{
-            //          margin: 40px 0 70px 55px;
-            //     }
-            // }
             .menu{
                 a{
-                    margin: 1px 1px;
-                    font-size: 16px;    
+                    margin: 1px 1px;  
                 }
             }
         }
     } 
     main{
     //     .be-part{
-    //         .container{
-    //         .partner-text{
-    //             h1{
-    //                 font-size: 40px;
-              
-    //             }
-    //             p{
-    //                 font-size: 16px;
-    //                 margin-bottom: 45px;
-    //                 margin-left: 30px;
-
-    //             }
-    //             a{
-    //                 font-size: 18px;
-    //                 padding: 10px 30px;
-    //             }
-    //         }
-    //         .be-partner{
-    //             width: 90%;
-    //             .login{
-    //                 font-size: 14px;
-    //                 .button{
-    //                     font-size: 17px;
-    //                     padding: 15px 0;
-    //                 }
-    //                 .field{
-    //                     padding: 20px;
-    //                 }
-    //             }
-    //         }
-    //     }
     // }
     //     .food-rations{
-    //         .container{
-    //             .food{
-    //                 .text-photo{
-    //                     width: 85%;
-    //                     margin-left: 10px;
-    //                 }
-    //             }
-    //     }
     // }
     //     .our-core{
     //         .container{
-    //             .description{
-    //                 h2{
-    //                     font-size: 37px;
-    //                 }
-    //                 p{
-    //                     font-size: 18px;
-    //                 }
-    //             }
     //         }
     //     }
         .payment{
             .container{
-                h3{
-                    font-size: 30px;
-                }
                 .container-payment{
                     .card1{
                         width: 76%;
-                        .tittle1{
-                            h4{
-                                font-size: 19px;
-                            }
-                           
-                        }
                         .check{
-                            margin-left: 30px;
                             p{
                                 font-size: 13px;
-                            }
-                        }
-                        .button2{
-                            .donate{
-                                font-size: 17px;
-                                padding: 12px 33px;
                             }
                         }
                     }
                     .card2{
                         width: 76%;
-                        .tittle2{
-                            h4{
-                                font-size: 19px;
-                            }
-                           
-                        }
                         .check{
-                            margin-left: 30px;
                             p{
                                 font-size: 13px;
-                            }
-                        }
-                        .button2{
-                            .donate{
-                                font-size: 17px;
-                                padding: 12px 33px;
                             }
                         }
                     }
@@ -1542,9 +1345,6 @@ main{
         }
     //     .features{
     //         .container{
-    //             .card{
-    //                 font-size: 13px;
-    //             }
 
     //         }   
     //     }
@@ -1570,24 +1370,14 @@ main{
         }
 //         .hashtag{
 //             .container{
-//                 .text-hashtag{
-//                     font-size: 27px;
-//                 }
 //             }
 //         }
 //         footer{
 //             .container{
-//                 .main-logo{
-//                     .logo-img{
-//                         width: 100%;
-//                     }
-//                 }
-//             }
-            
+//             }            
 //         }
     
 }
-
 }
 @media screen and (max-width: 340px){
     header{
@@ -1618,32 +1408,18 @@ main{
                 }
             }
             .be-partner{
-                // width: 94%;
                 .login{
                     font-size: 13px;
-                    // .field{
-                    //     width: 85%;
-                    // }
                 }
             }
         }
     }
     //     .food-rations{
     //         .container{
-    //             .food{
-    //                 .text-photo{
-    //                     width: 85%;
-    //                 }
-    //             }
     //     }
     // }
         .our-core{
             .container{
-                // .description{
-                //     p{
-                //         margin: auto 5px;
-                //     }
-                // }
                 .photos{
                     .photo{
                         margin-bottom: 15px;
@@ -1664,28 +1440,12 @@ main{
                 }
             }
         }
-    //     .features{
-    //         .container{
-    //             .card{
-    //                 font-size: 16px;
-    //             }
-
-    //         }   
-    //     }
+        //     .features{
+        //         .container{
+         //         }   
+        //     }
         // .data{
         //     .container{
-        //         .graphics{
-        //             height: auto;
-        //             .table{
-        //                 font-size: 7px;
-        //                 margin-top: 40px; 
-        //                 margin-bottom: 20px;
-        //             }
-        //             .pacman{
-        //                 font-size: 7px;
-        //                 margin-top: 40px;
-        //             }
-        //         }
         //     }
         // }
         .hashtag{
@@ -1699,20 +1459,19 @@ main{
             .container{
                 .main-logo{
                     .logo-img{
-                        margin: 40px 30px;
+                        margin: 40px 20px;
+                        width: 80%;
                     }
                 }
                 .footer-menu{
                     a{
-                        font-size: 22px;
+                        font-size: 16px;
                     }
                 }
             }
             
         }
-    
 }
-
 }
 
 

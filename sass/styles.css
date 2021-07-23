@@ -368,7 +368,7 @@ main .data .container .graphics .table {
   width: 300px;
   margin: 100px 0 0 50px;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 103.69%;
   color: #5B5B5B;
 }
@@ -381,7 +381,7 @@ main .data .container .graphics .pacman {
   width: 300px;
   margin: 100px 20px 0 120px;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 103.69%;
   color: #5B5B5B;
 }
@@ -646,7 +646,7 @@ main footer .container .footer-menu a {
   }
   main .data .container .graphics {
     height: 300px;
-    margin: 100px auto;
+    margin: 80px auto;
   }
   main .data .container .graphics .table {
     font-size: 8px;
@@ -879,7 +879,7 @@ main footer .container .footer-menu a {
     height: auto;
   }
   main .data .container .graphics .table {
-    width: 70%;
+    width: 84%;
     font-size: 12px;
     margin: 40px 0;
   }
@@ -1011,9 +1011,6 @@ main footer .container .footer-menu a {
   main .payment .container .container-payment .card1 .check {
     margin-left: 30px;
   }
-  main .payment .container .container-payment .card1 .check p {
-    font-size: 13px;
-  }
   main .payment .container .container-payment .card1 .button2 .donate {
     font-size: 17px;
     padding: 12px 33px;
@@ -1027,15 +1024,18 @@ main footer .container .footer-menu a {
   main .payment .container .container-payment .card2 .check {
     margin-left: 30px;
   }
-  main .payment .container .container-payment .card2 .check p {
-    font-size: 13px;
-  }
   main .payment .container .container-payment .card2 .button2 .donate {
     font-size: 17px;
     padding: 12px 33px;
   }
   main .features .container .card {
     font-size: 13px;
+  }
+  main .data .container .graphics {
+    width: 76%;
+  }
+  main .data .container .graphics .pacman .circle-img {
+    width: 55%;
   }
   main .hashtag .container .text-hashtag {
     font-size: 27px;
@@ -1048,42 +1048,18 @@ main footer .container .footer-menu a {
 @media screen and (max-width: 376px) {
   header .container .menu a {
     margin: 1px 1px;
-    font-size: 16px;
-  }
-  main .payment .container h3 {
-    font-size: 30px;
   }
   main .payment .container .container-payment .card1 {
     width: 76%;
   }
-  main .payment .container .container-payment .card1 .tittle1 h4 {
-    font-size: 19px;
-  }
-  main .payment .container .container-payment .card1 .check {
-    margin-left: 30px;
-  }
   main .payment .container .container-payment .card1 .check p {
     font-size: 13px;
-  }
-  main .payment .container .container-payment .card1 .button2 .donate {
-    font-size: 17px;
-    padding: 12px 33px;
   }
   main .payment .container .container-payment .card2 {
     width: 76%;
   }
-  main .payment .container .container-payment .card2 .tittle2 h4 {
-    font-size: 19px;
-  }
-  main .payment .container .container-payment .card2 .check {
-    margin-left: 30px;
-  }
   main .payment .container .container-payment .card2 .check p {
     font-size: 13px;
-  }
-  main .payment .container .container-payment .card2 .button2 .donate {
-    font-size: 17px;
-    padding: 12px 33px;
   }
   main .data .container .graphics {
     width: 80%;
@@ -1138,10 +1114,11 @@ main footer .container .footer-menu a {
     font-size: 23px;
   }
   main footer .container .main-logo .logo-img {
-    margin: 40px 30px;
+    margin: 40px 20px;
+    width: 80%;
   }
   main footer .container .footer-menu a {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
