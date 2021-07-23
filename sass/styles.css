@@ -1086,16 +1086,20 @@ main footer .container .footer-menu a {
     padding: 12px 33px;
   }
   main .data .container .graphics {
-    width: 76%;
+    width: 80%;
   }
   main .data .container .graphics .table {
-    font-size: 7px;
+    font-size: 11px;
     margin-top: 40px;
     margin-bottom: 20px;
+    width: 90%;
   }
   main .data .container .graphics .pacman {
-    font-size: 7px;
+    font-size: 11px;
     margin-top: 40px;
+  }
+  main .data .container .graphics .pacman .circle-img {
+    width: 55%;
   }
 }
 
