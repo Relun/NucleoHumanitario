@@ -90,27 +90,27 @@ header .container .menu .sum {
 
 main .be-part {
   background: #C4C4C4;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 
 main .be-part .partner-text {
   width: 1000px;
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 main .be-part .partner-text h1 {
   color: #ED744A;
-  font-size: 90px;
+  font-size: 84px;
   line-height: 103.69%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 55px 0 10px 0;
+  margin: 35px 0 10px 0;
 }
 
 main .be-part .partner-text p {
-  font-size: 23px;
-  width: 600px;
+  font-size: 22px;
+  width: 86%;
   color: #625F5F;
 }
 
@@ -142,7 +142,8 @@ main .be-part .be-partner .login {
   text-align: center;
   color: #FFFFFF;
   font-size: 18px;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 main .be-part .be-partner .login input {
@@ -182,6 +183,7 @@ main .food-rations .container .logo .logo2 {
 
 main .food-rations .food .text-photo {
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 main .our-core {
@@ -340,7 +342,8 @@ main .features .container .card {
   color: #FFFFFF;
   font-size: 17px;
   text-align: center;
-  margin-top: 65px;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 
 main .features .container .card .card-text {
@@ -424,6 +427,18 @@ main footer .container .footer-menu a {
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 1358px) {
+  main .our-core .container .description {
+    width: 40%;
+  }
+  main .our-core .container .description h2 {
+    font-size: 53px;
+  }
+  main .our-core .container .description p {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   header .container .main-logo .logo-img {
     width: 70%;
@@ -435,9 +450,12 @@ main footer .container .footer-menu a {
     margin: 0 6px;
     font-size: 17px;
   }
+  main .be-part {
+    padding-bottom: 10px;
+  }
   main .be-part .partner-text {
     width: 50%;
-    padding-top: 5%;
+    padding-top: 3%;
   }
   main .be-part .partner-text h1 {
     font-size: 58px;
@@ -474,7 +492,7 @@ main footer .container .footer-menu a {
   }
   main .food-rations .container .logo .logo2 {
     width: 60%;
-    margin: 20px 0 0 55px;
+    margin: 40px 0 0 55px;
   }
   main .food-rations .container .food .text-photo {
     width: 70%;
@@ -569,7 +587,25 @@ main footer .container .footer-menu a {
   }
 }
 
+@media screen and (max-width: 1090px) {
+  main .our-core .container .description {
+    width: 50%;
+  }
+  main .our-core .container .description h2 {
+    font-size: 40px;
+  }
+  main .our-core .container .description p {
+    font-size: 16px;
+  }
+  main .our-core .container .photos {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 960px) {
+  main .be-part {
+    padding-bottom: 40px;
+  }
   main .be-part .partner-text h1 {
     font-size: 49px;
   }
@@ -604,7 +640,7 @@ main footer .container .footer-menu a {
   }
   main .payment .container h3 {
     font-size: 28px;
-    padding: 30px 0;
+    padding: 30px 0 20px 0;
   }
   main .payment .container .container-payment .card1 {
     border-radius: 12px;
@@ -775,7 +811,7 @@ main footer .container .footer-menu a {
     font-size: 33px;
   }
   main .our-core .container .description p {
-    font-size: 16px;
+    font-size: 17px;
     width: 90%;
     margin: auto;
   }
@@ -783,7 +819,7 @@ main footer .container .footer-menu a {
     width: 100%;
   }
   main .our-core .container .photos .photo {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
   main .payment .container .container-payment {
     display: -webkit-box;
@@ -997,7 +1033,7 @@ main footer .container .footer-menu a {
     font-size: 37px;
   }
   main .our-core .container .description p {
-    font-size: 18px;
+    font-size: 16px;
   }
   main .payment .container h3 {
     font-size: 30px;

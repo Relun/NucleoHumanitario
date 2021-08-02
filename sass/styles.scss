@@ -94,28 +94,28 @@ header{
 main{
     .be-part{
         background: $tertiary;
-        padding-bottom: 50px;
+        padding-bottom: 5px;
         .container{
             @extend .flex-between;
         }
         .partner-text{
             width: 1000px;
-            padding-top: 50px;
+            padding-top: 5px;
             h1{
                 @extend .upper;
                 @extend .poppins700;
                 color: $fourth;
-                font-size: 90px;
+                font-size: 84px;
                 line-height: 103.69%;
                 align-items: center;
-                margin: 55px 0 10px 0
+                margin: 35px 0 10px 0;
             }
             p{
                 @extend .roboto400;
                 @extend .upper;
-                font-size: 23px;
+                font-size: 22px;
                 // line-height: 103.69%;
-                width: 600px;
+                width: 86%;
                 color: #625F5F;
             }
             a{
@@ -145,7 +145,8 @@ main{
                 text-align: center;
                 color: $white;
                 font-size: 18px;
-                padding-top: 30px;
+                padding-top: 20px;
+                padding-bottom: 40px;
                 input{
                     border: 0;
                 }    
@@ -186,6 +187,7 @@ main{
         .food{
             .text-photo{
                 padding:20px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -212,6 +214,7 @@ main{
                 }
             }
             .photos{
+                // width: 60%;
                 .photo{
                     margin-right: 0;
                 }
@@ -349,7 +352,8 @@ main{
                 font-size: 17px;
                 // line-height: 103.69%;
                 text-align: center;
-                margin-top: 65px;
+                margin-top: 45px;
+                margin-bottom: 35px;
                 .card-text{
                     width: 285px;
                 } 
@@ -437,6 +441,29 @@ main{
     }
 }
 
+@media screen and (max-width: 1358px){
+    main{
+        .our-core{
+            .container{
+                .description{
+                    width: 40%;
+                    h2{
+                        font-size: 53px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                // .photos{
+                //     width: 80%;
+                //     .photo{
+                //         width: 100%;   
+                //     }
+                // }
+            }
+        }
+    }
+}
 
 // media queries
 @media screen and (max-width: 1200px){
@@ -460,9 +487,10 @@ main{
 
     main{
         .be-part{
+            padding-bottom: 10px;
             .partner-text{
                 width: 50%;
-                padding-top: 5%;
+                padding-top: 3%;
                 h1{
                     font-size: 58px;
                     margin: auto 0 25px 0;
@@ -502,7 +530,7 @@ main{
                 .logo{
                     .logo2{
                         width: 60%;
-                        margin: 20px 0 0 55px;
+                        margin: 40px 0 0 55px;
                     }
                  }
             .food{
@@ -642,6 +670,29 @@ main{
         }
     }
 }
+@media screen and (max-width: 1090px){
+    main{
+        .our-core{
+            .container{
+                .description{
+                    width: 50%;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                .photos{
+                    width: 70%;
+                    // .photo{
+                    //     width: 100%;   
+                    // }
+                }
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 960px){
     // header{
@@ -650,6 +701,7 @@ main{
     
     main{
         .be-part{
+            padding-bottom: 40px;
             .partner-text{
                 h1{
                     font-size: 49px;
@@ -706,7 +758,7 @@ main{
             .container{
                 h3{
                     font-size: 28px;
-                    padding: 30px 0;
+                    padding: 30px 0 20px 0;
                 }
                 .container-payment{
                     .card1{
@@ -887,7 +939,7 @@ main{
                         font-size: 33px;
                     }
                     p{
-                        font-size: 16px;
+                        font-size: 17px;
                         width: 90%;
                         margin: auto;
                     }
@@ -895,7 +947,7 @@ main{
                 .photos{
                     width: 100%;
                     .photo{
-                        margin-bottom: 35px;
+                        margin-bottom: 30px;
                     }
                 }
             }
@@ -1212,7 +1264,7 @@ main{
                         font-size: 37px;
                     }
                     p{
-                        font-size: 18px;
+                        font-size: 16px;
                     }
                 }
             }
