@@ -1,5 +1,5 @@
 # NucleoHumanitario
 
-#ghpages:
+ghpages:
 
 https://relun.github.io/NucleoHumanitario/
